@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com"
+		module="swift-eta_2.10"
+		revision="0.1.0"
+		conf="compile-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20151125131821"/>
+	<dependencies>
+		<module organisation="org.apache.flink" name="flink-streaming-scala">
+			<revision name="0.8.0" status="release" pubdate="20150115110642" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="49">
+				<metadata-artifact status="no" details="" size="25266" time="0" location="/home/javier/.ivy2/cache/org.apache.flink/flink-streaming-scala/ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-streaming-scala/0.8.0/flink-streaming-scala-0.8.0.pom"/>
+				<caller organisation="com" name="swift-eta_2.10" conf="compile-internal, compile, provided, optional" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="flink-streaming-scala" type="jar" ext="jar" status="no" details="" size="105106" time="0" location="/home/javier/.ivy2/cache/org.apache.flink/flink-streaming-scala/jars/flink-streaming-scala-0.8.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/flink/flink-streaming-scala/0.8.0/flink-streaming-scala-0.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.flink" name="flink-streaming-core">
+			<revision name="0.8.0" status="release" pubdate="20150115110539" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="50">
+				<metadata-artifact status="no" details="" size="24540" time="0" location="/home/javier/.ivy2/cache/org.apache.flink/flink-streaming-core/ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-streaming-core/0.8.0/flink-streaming-core-0.8.0.pom"/>
+				<caller organisation="org.apache.flink" name="flink-streaming-scala" conf="default, compile, runtime, master" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.8.0"/>
+				<artifacts>
+					<artifact name="flink-streaming-core" type="jar" ext="jar" status="no" details="" size="268128" time="0" location="/home/javier/.ivy2/cache/org.apache.flink/flink-streaming-core/jars/flink-streaming-core-0.8.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/flink/flink-streaming-core/0.8.0/flink-streaming-core-0.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.flink" name="flink-clients">
+			<revision name="0.8.0" status="release" pubdate="20150115105419" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="52">
+				<metadata-artifact status="no" details="" size="21867" time="0" location="/home/javier/.ivy2/cache/org.apache.flink/flink-clients/ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-clients/0.8.0/flink-clients-0.8.0.pom"/>
+				<caller organisation="org.apache.flink" name="flink-streaming-scala" conf="default, compile, runtime, master" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.8.0"/>
+				<caller organisation="com" name="swift-eta_2.10" conf="compile-internal, compile, provided, optional" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.1.0"/>
+				<caller organisation="org.apache.flink" name="flink-streaming-core" conf="compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.8.0"/>
+				<artifacts>
+					<artifact name="flink-clients" type="jar" ext="jar" status="no" details="" size="85871" time="0" location="/home/javier/.ivy2/cache/org.apache.flink/flink-clients/jars/flink-clients-0.8.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/flink/flink-clients/0.8.0/flink-clients-0.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-fileupload" name="commons-fileupload">
+			<revision name="1.3.1" status="release" pubdate="20140206180401" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-fileupload/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="53">
+				<metadata-artifact status="no" details="" size="10299" time="0" location="/home/javier/.ivy2/cache/commons-fileupload/commons-fileupload/ivy-1.3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1.pom"/>
+				<caller organisation="org.apache.flink" name="flink-clients" conf="compile, runtime" rev="1.3.1" rev-constraint-default="1.3.1" rev-constraint-dynamic="1.3.1" callerrev="0.8.0"/>
+				<artifacts>
+					<artifact name="commons-fileupload" type="jar" ext="jar" status="no" details="" size="69002" time="0" location="/home/javier/.ivy2/cache/commons-fileupload/commons-fileupload/jars/commons-fileupload-1.3.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-fileupload/commons-fileupload/1.3.1/commons-fileupload-1.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-math">
+			<revision name="2.2" status="release" pubdate="20110226192444" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/math/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="51">
+				<metadata-artifact status="no" details="" size="6216" time="0" location="/home/javier/.ivy2/cache/org.apache.commons/commons-math/ivy-2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-math/2.2/commons-math-2.2.pom"/>
+				<caller organisation="org.apache.flink" name="flink-streaming-core" conf="compile, runtime" rev="2.2" rev-constraint-default="2.2" rev-constraint-dynamic="2.2" callerrev="0.8.0"/>
+				<artifacts>
+					<artifact name="commons-math" type="jar" ext="jar" status="no" details="" size="988514" time="0" location="/home/javier/.ivy2/cache/org.apache.commons/commons-math/jars/commons-math-2.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-math/2.2/commons-math-2.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.flink" name="flink-scala">
+			<revision name="0.8.0" status="release" pubdate="20150115105619" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="1">
+				<metadata-artifact status="no" details="" size="20440" time="0" location="/home/javier/.ivy2/cache/org.apache.flink/flink-scala/ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-scala/0.8.0/flink-scala-0.8.0.pom"/>
+				<caller organisation="org.apache.flink" name="flink-streaming-scala" conf="default, compile, runtime, master" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.8.0"/>
+				<caller organisation="com" name="swift-eta_2.10" conf="compile-internal, compile, provided, optional" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="flink-scala" type="jar" ext="jar" status="no" details="" size="593877" time="0" location="/home/javier/.ivy2/cache/org.apache.flink/flink-scala/jars/flink-scala-0.8.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/flink/flink-scala/0.8.0/flink-scala-0.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalamacros" name="quasiquotes_2.10">
+			<revision name="2.0.1" status="release" pubdate="20150927171915" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scalamacros/paradise" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="48">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html"/>
+				<metadata-artifact status="no" details="" size="2730" time="0" location="/home/javier/.ivy2/cache/org.scalamacros/quasiquotes_2.10/ivy-2.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.0.1/quasiquotes_2.10-2.0.1.pom"/>
+				<caller organisation="org.apache.flink" name="flink-streaming-scala" conf="default, compile, runtime, master" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-scala" conf="default, compile, runtime, master" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="0.8.0"/>
+				<artifacts>
+					<artifact name="quasiquotes_2.10" type="jar" ext="jar" status="no" details="" size="720704" time="0" location="/home/javier/.ivy2/cache/org.scalamacros/quasiquotes_2.10/jars/quasiquotes_2.10-2.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.0.1/quasiquotes_2.10-2.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-compiler">
+			<revision name="2.10.4" status="release" pubdate="20140318224738" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="47">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2809" time="0" location="/home/javier/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.10.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4.pom"/>
+				<caller organisation="org.apache.flink" name="flink-scala" conf="default, compile, runtime, master" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="0.8.0"/>
+				<artifacts>
+					<artifact name="scala-compiler" type="jar" ext="jar" status="no" details="" size="14445780" time="0" location="/home/javier/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.10.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.4/scala-compiler-2.10.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.10.4" status="release" pubdate="20140318224707" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.4/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), master(compile), runtime, compile(*), master" position="46">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>
+				<metadata-artifact status="no" details="" size="2647" time="0" location="/home/javier/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.10.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4.pom"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.10.4"/>
+				<caller organisation="org.apache.flink" name="flink-scala" conf="default, compile, runtime, master" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="0.8.0"/>
+				<caller organisation="org.scalamacros" name="quasiquotes_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.0.1"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3203471" time="0" location="/home/javier/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.4.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.flink" name="flink-compiler">
+			<revision name="0.8.0" status="release" pubdate="20150115105338" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<metadata-artifact status="no" details="" size="20770" time="0" location="/home/javier/.ivy2/cache/org.apache.flink/flink-compiler/ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-compiler/0.8.0/flink-compiler-0.8.0.pom"/>
+				<caller organisation="org.apache.flink" name="flink-streaming-scala" conf="default, compile, runtime, master" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-scala" conf="default, compile, runtime, master" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-streaming-core" conf="compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-clients" conf="compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.8.0"/>
+				<artifacts>
+					<artifact name="flink-compiler" type="jar" ext="jar" status="no" details="" size="332516" time="0" location="/home/javier/.ivy2/cache/org.apache.flink/flink-compiler/jars/flink-compiler-0.8.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/flink/flink-compiler/0.8.0/flink-compiler-0.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.flink" name="flink-runtime">
+			<revision name="0.8.0" status="release" pubdate="20150115105242" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<metadata-artifact status="no" details="" size="21830" time="0" location="/home/javier/.ivy2/cache/org.apache.flink/flink-runtime/ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-runtime/0.8.0/flink-runtime-0.8.0.pom"/>
+				<caller organisation="org.apache.flink" name="flink-streaming-scala" conf="default, compile, runtime, master" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-compiler" conf="compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-streaming-core" conf="compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-clients" conf="compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.8.0"/>
+				<artifacts>
+					<artifact name="flink-runtime" type="jar" ext="jar" status="no" details="" size="1033120" time="0" location="/home/javier/.ivy2/cache/org.apache.flink/flink-runtime/jars/flink-runtime-0.8.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/flink/flink-runtime/0.8.0/flink-runtime-0.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jettison" name="jettison">
+			<revision name="1.1" status="release" pubdate="20090420185050" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="44">
+				<metadata-artifact status="no" details="" size="2745" time="0" location="/home/javier/.ivy2/cache/org.codehaus.jettison/jettison/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.1/jettison-1.1.pom"/>
+				<caller organisation="org.apache.flink" name="flink-runtime" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.8.0"/>
+				<artifacts>
+					<artifact name="jettison" type="bundle" ext="jar" status="no" details="" size="67758" time="0" location="/home/javier/.ivy2/cache/org.codehaus.jettison/jettison/bundles/jettison-1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.1/jettison-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="stax" name="stax-api">
+			<revision name="1.0.1" status="release" pubdate="20060831193914" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://stax.codehaus.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="45">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2406" time="0" location="/home/javier/.ivy2/cache/stax/stax-api/ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.pom"/>
+				<caller organisation="org.codehaus.jettison" name="jettison" conf="compile, runtime" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="1.1"/>
+				<artifacts>
+					<artifact name="stax-api" type="jar" ext="jar" status="no" details="" size="26514" time="0" location="/home/javier/.ivy2/cache/stax/stax-api/jars/stax-api-1.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/stax/stax-api/1.0.1/stax-api-1.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-all">
+			<revision name="4.0.21.Final" status="release" pubdate="20140701133622" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="43">
+				<metadata-artifact status="no" details="" size="15883" time="0" location="/home/javier/.ivy2/cache/io.netty/netty-all/ivy-4.0.21.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-all/4.0.21.Final/netty-all-4.0.21.Final.pom"/>
+				<caller organisation="org.apache.flink" name="flink-runtime" conf="compile, runtime" rev="4.0.21.Final" rev-constraint-default="4.0.21.Final" rev-constraint-dynamic="4.0.21.Final" callerrev="0.8.0"/>
+				<artifacts>
+					<artifact name="netty-all" type="jar" ext="jar" status="no" details="" size="1730655" time="0" location="/home/javier/.ivy2/cache/io.netty/netty-all/jars/netty-all-4.0.21.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-all/4.0.21.Final/netty-all-4.0.21.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.amazonaws" name="aws-java-sdk">
+			<revision name="1.8.1" status="release" pubdate="20140625022715" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="5205" time="0" location="/home/javier/.ivy2/cache/com.amazonaws/aws-java-sdk/ivy-1.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk/1.8.1/aws-java-sdk-1.8.1.pom"/>
+				<caller organisation="org.apache.flink" name="flink-runtime" conf="compile, runtime" rev="1.8.1" rev-constraint-default="1.8.1" rev-constraint-dynamic="1.8.1" callerrev="0.8.0"/>
+				<artifacts>
+					<artifact name="aws-java-sdk" type="jar" ext="jar" status="no" details="" size="12897853" time="0" location="/home/javier/.ivy2/cache/com.amazonaws/aws-java-sdk/jars/aws-java-sdk-1.8.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk/1.8.1/aws-java-sdk-1.8.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.5" status="release" pubdate="20141003085614" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="42">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6459" time="0" location="/home/javier/.ivy2/cache/joda-time/joda-time/ivy-2.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/2.5/joda-time-2.5.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="compile, runtime" rev="2.5" rev-constraint-default="2.5" rev-constraint-dynamic="[2.2,)" callerrev="1.8.1"/>
+				<artifacts>
+					<artifact name="joda-time" type="jar" ext="jar" status="no" details="" size="588001" time="0" location="/home/javier/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/2.5/joda-time-2.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
+			<revision name="2.1.1" status="release" pubdate="20121112005441" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="40">
+				<metadata-artifact status="no" details="" size="6064" time="0" location="/home/javier/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.1.1/jackson-databind-2.1.1.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="compile, runtime" rev="2.1.1" rev-constraint-default="2.1.1" rev-constraint-dynamic="2.1.1" callerrev="1.8.1"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="jar" ext="jar" status="no" details="" size="922643" time="0" location="/home/javier/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/jars/jackson-databind-2.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.1.1/jackson-databind-2.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
+			<revision name="2.1.1" status="release" pubdate="20121112003859" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="41">
+				<metadata-artifact status="no" details="" size="4023" time="0" location="/home/javier/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.1.1/jackson-annotations-2.1.1.pom"/>
+				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="compile, runtime" rev="2.1.1" rev-constraint-default="2.1.1" rev-constraint-dynamic="2.1.1" callerrev="2.1.1"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="compile, runtime" rev="2.1.1" rev-constraint-default="2.1.1" rev-constraint-dynamic="2.1.1" callerrev="1.8.1"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="jar" ext="jar" status="no" details="" size="34477" time="0" location="/home/javier/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/jars/jackson-annotations-2.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.1.1/jackson-annotations-2.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
+			<revision name="2.1.1" status="release" pubdate="20121112004713" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
+				<metadata-artifact status="no" details="" size="4349" time="0" location="/home/javier/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.1.1/jackson-core-2.1.1.pom"/>
+				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="compile, runtime" rev="2.1.1" rev-constraint-default="2.1.1" rev-constraint-dynamic="2.1.1" callerrev="2.1.1"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="compile, runtime" rev="2.1.1" rev-constraint-default="2.1.1" rev-constraint-dynamic="2.1.1" callerrev="1.8.1"/>
+				<artifacts>
+					<artifact name="jackson-core" type="jar" ext="jar" status="no" details="" size="206379" time="0" location="/home/javier/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/jars/jackson-core-2.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.1.1/jackson-core-2.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpclient">
+			<revision name="4.2" status="release" pubdate="20120517142639" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="36">
+				<metadata-artifact status="no" details="" size="9259" time="0" location="/home/javier/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.2/httpclient-4.2.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="compile, runtime" rev="4.2" rev-constraint-default="4.2" rev-constraint-dynamic="4.2" callerrev="1.8.1"/>
+				<artifacts>
+					<artifact name="httpclient" type="jar" ext="jar" status="no" details="" size="424648" time="0" location="/home/javier/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.2/httpclient-4.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.6" status="release" pubdate="20111203033826" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/codec/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
+				<metadata-artifact status="no" details="" size="7561" time="0" location="/home/javier/.ivy2/cache/commons-codec/commons-codec/ivy-1.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom"/>
+				<caller organisation="org.apache.httpcomponents" name="httpclient" conf="compile, runtime" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="4.2"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="compile" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.3" callerrev="1.8.1"/>
+				<artifacts>
+					<artifact name="commons-codec" type="jar" ext="jar" status="no" details="" size="232771" time="0" location="/home/javier/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.3" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.6"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="1.8.1"/>
+				<caller organisation="org.apache.httpcomponents" name="httpclient" conf="compile, runtime" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="4.2"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore">
+			<revision name="4.2" status="release" pubdate="20120501142135" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
+				<metadata-artifact status="no" details="" size="6612" time="0" location="/home/javier/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.2/httpcore-4.2.pom"/>
+				<caller organisation="org.apache.httpcomponents" name="httpclient" conf="compile, runtime" rev="4.2" rev-constraint-default="4.2" rev-constraint-dynamic="4.2" callerrev="4.2"/>
+				<artifacts>
+					<artifact name="httpcore" type="jar" ext="jar" status="no" details="" size="223282" time="0" location="/home/javier/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.2/httpcore-4.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.1.1" status="release" pubdate="20071126212410" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/logging" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
+				<metadata-artifact status="no" details="" size="3971" time="0" location="/home/javier/.ivy2/cache/commons-logging/commons-logging/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom"/>
+				<caller organisation="com.amazonaws" name="aws-java-sdk" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.8.1"/>
+				<caller organisation="org.apache.httpcomponents" name="httpclient" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="4.2"/>
+				<artifacts>
+					<artifact name="commons-logging" type="jar" ext="jar" status="no" details="" size="60686" time="0" location="/home/javier/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-servlet">
+			<revision name="8.0.0.M1" status="release" pubdate="20100712113005" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
+				<metadata-artifact status="no" details="" size="6777" time="0" location="/home/javier/.ivy2/cache/org.eclipse.jetty/jetty-servlet/ivy-8.0.0.M1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/8.0.0.M1/jetty-servlet-8.0.0.M1.pom"/>
+				<caller organisation="org.apache.flink" name="flink-runtime" conf="compile, runtime" rev="8.0.0.M1" rev-constraint-default="8.0.0.M1" rev-constraint-dynamic="8.0.0.M1" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-clients" conf="compile, runtime" rev="8.0.0.M1" rev-constraint-default="8.0.0.M1" rev-constraint-dynamic="8.0.0.M1" callerrev="0.8.0"/>
+				<artifacts>
+					<artifact name="jetty-servlet" type="jar" ext="jar" status="no" details="" size="81290" time="0" location="/home/javier/.ivy2/cache/org.eclipse.jetty/jetty-servlet/jars/jetty-servlet-8.0.0.M1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/8.0.0.M1/jetty-servlet-8.0.0.M1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-security">
+			<revision name="8.0.0.M1" status="release" pubdate="20100712112942" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+				<metadata-artifact status="no" details="" size="6784" time="0" location="/home/javier/.ivy2/cache/org.eclipse.jetty/jetty-security/ivy-8.0.0.M1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/8.0.0.M1/jetty-security-8.0.0.M1.pom"/>
+				<caller organisation="org.eclipse.jetty" name="jetty-servlet" conf="compile, runtime" rev="8.0.0.M1" rev-constraint-default="8.0.0.M1" rev-constraint-dynamic="8.0.0.M1" callerrev="8.0.0.M1"/>
+				<caller organisation="org.apache.flink" name="flink-runtime" conf="compile, runtime" rev="8.0.0.M1" rev-constraint-default="8.0.0.M1" rev-constraint-dynamic="8.0.0.M1" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-clients" conf="compile, runtime" rev="8.0.0.M1" rev-constraint-default="8.0.0.M1" rev-constraint-dynamic="8.0.0.M1" callerrev="0.8.0"/>
+				<artifacts>
+					<artifact name="jetty-security" type="jar" ext="jar" status="no" details="" size="69062" time="0" location="/home/javier/.ivy2/cache/org.eclipse.jetty/jetty-security/jars/jetty-security-8.0.0.M1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-security/8.0.0.M1/jetty-security-8.0.0.M1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-server">
+			<revision name="8.0.0.M1" status="release" pubdate="20100712112846" resolver="sbt-chain" artresolver="sbt-chain" homepage="${jetty.url}" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<metadata-artifact status="no" details="" size="7155" time="0" location="/home/javier/.ivy2/cache/org.eclipse.jetty/jetty-server/ivy-8.0.0.M1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.0.0.M1/jetty-server-8.0.0.M1.pom"/>
+				<caller organisation="org.eclipse.jetty" name="jetty-security" conf="compile, runtime" rev="8.0.0.M1" rev-constraint-default="8.0.0.M1" rev-constraint-dynamic="8.0.0.M1" callerrev="8.0.0.M1"/>
+				<caller organisation="org.apache.flink" name="flink-runtime" conf="compile, runtime" rev="8.0.0.M1" rev-constraint-default="8.0.0.M1" rev-constraint-dynamic="8.0.0.M1" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-clients" conf="compile, runtime" rev="8.0.0.M1" rev-constraint-default="8.0.0.M1" rev-constraint-dynamic="8.0.0.M1" callerrev="0.8.0"/>
+				<artifacts>
+					<artifact name="jetty-server" type="jar" ext="jar" status="no" details="" size="283754" time="0" location="/home/javier/.ivy2/cache/org.eclipse.jetty/jetty-server/jars/jetty-server-8.0.0.M1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.0.0.M1/jetty-server-8.0.0.M1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-http">
+			<revision name="8.0.0.M1" status="release" pubdate="20100712112631" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+				<metadata-artifact status="no" details="" size="6721" time="0" location="/home/javier/.ivy2/cache/org.eclipse.jetty/jetty-http/ivy-8.0.0.M1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.0.0.M1/jetty-http-8.0.0.M1.pom"/>
+				<caller organisation="org.eclipse.jetty" name="jetty-server" conf="compile, runtime" rev="8.0.0.M1" rev-constraint-default="8.0.0.M1" rev-constraint-dynamic="8.0.0.M1" callerrev="8.0.0.M1"/>
+				<artifacts>
+					<artifact name="jetty-http" type="jar" ext="jar" status="no" details="" size="103263" time="0" location="/home/javier/.ivy2/cache/org.eclipse.jetty/jetty-http/jars/jetty-http-8.0.0.M1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.0.0.M1/jetty-http-8.0.0.M1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-io">
+			<revision name="8.0.0.M1" status="release" pubdate="20100712112612" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+				<metadata-artifact status="no" details="" size="6717" time="0" location="/home/javier/.ivy2/cache/org.eclipse.jetty/jetty-io/ivy-8.0.0.M1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.0.0.M1/jetty-io-8.0.0.M1.pom"/>
+				<caller organisation="org.eclipse.jetty" name="jetty-http" conf="compile, runtime" rev="8.0.0.M1" rev-constraint-default="8.0.0.M1" rev-constraint-dynamic="8.0.0.M1" callerrev="8.0.0.M1"/>
+				<artifacts>
+					<artifact name="jetty-io" type="jar" ext="jar" status="no" details="" size="81553" time="0" location="/home/javier/.ivy2/cache/org.eclipse.jetty/jetty-io/jars/jetty-io-8.0.0.M1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.0.0.M1/jetty-io-8.0.0.M1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-util">
+			<revision name="8.0.0.M1" status="release" pubdate="20100712112542" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+				<metadata-artifact status="no" details="" size="6971" time="0" location="/home/javier/.ivy2/cache/org.eclipse.jetty/jetty-util/ivy-8.0.0.M1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.0.0.M1/jetty-util-8.0.0.M1.pom"/>
+				<caller organisation="org.eclipse.jetty" name="jetty-io" conf="compile, runtime" rev="8.0.0.M1" rev-constraint-default="8.0.0.M1" rev-constraint-dynamic="8.0.0.M1" callerrev="8.0.0.M1"/>
+				<artifacts>
+					<artifact name="jetty-util" type="jar" ext="jar" status="no" details="" size="205799" time="0" location="/home/javier/.ivy2/cache/org.eclipse.jetty/jetty-util/jars/jetty-util-8.0.0.M1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.0.0.M1/jetty-util-8.0.0.M1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-continuation">
+			<revision name="8.0.0.M1" status="release" pubdate="20100712112653" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<metadata-artifact status="no" details="" size="6835" time="0" location="/home/javier/.ivy2/cache/org.eclipse.jetty/jetty-continuation/ivy-8.0.0.M1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.0.0.M1/jetty-continuation-8.0.0.M1.pom"/>
+				<caller organisation="org.eclipse.jetty" name="jetty-server" conf="compile, runtime" rev="8.0.0.M1" rev-constraint-default="8.0.0.M1" rev-constraint-dynamic="8.0.0.M1" callerrev="8.0.0.M1"/>
+				<artifacts>
+					<artifact name="jetty-continuation" type="jar" ext="jar" status="no" details="" size="21168" time="0" location="/home/javier/.ivy2/cache/org.eclipse.jetty/jetty-continuation/jars/jetty-continuation-8.0.0.M1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.0.0.M1/jetty-continuation-8.0.0.M1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mortbay.jetty" name="servlet-api">
+			<revision name="3.0.20100224" status="release" pubdate="20100224044807" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<metadata-artifact status="no" details="" size="3092" time="0" location="/home/javier/.ivy2/cache/org.mortbay.jetty/servlet-api/ivy-3.0.20100224.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mortbay/jetty/servlet-api/3.0.20100224/servlet-api-3.0.20100224.pom"/>
+				<caller organisation="org.eclipse.jetty" name="jetty-server" conf="compile, runtime" rev="3.0.20100224" rev-constraint-default="3.0.20100224" rev-constraint-dynamic="3.0.20100224" callerrev="8.0.0.M1"/>
+				<artifacts>
+					<artifact name="servlet-api" type="jar" ext="jar" status="no" details="" size="210354" time="0" location="/home/javier/.ivy2/cache/org.mortbay.jetty/servlet-api/jars/servlet-api-3.0.20100224.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mortbay/jetty/servlet-api/3.0.20100224/servlet-api-3.0.20100224.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-cli" name="commons-cli">
+			<revision name="1.2" status="release" pubdate="20090319210832" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/cli/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<metadata-artifact status="no" details="" size="4456" time="0" location="/home/javier/.ivy2/cache/commons-cli/commons-cli/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.pom"/>
+				<caller organisation="org.apache.flink" name="flink-runtime" conf="compile, runtime" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-clients" conf="compile, runtime" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="0.8.0"/>
+				<artifacts>
+					<artifact name="commons-cli" type="jar" ext="jar" status="no" details="" size="41123" time="0" location="/home/javier/.ivy2/cache/commons-cli/commons-cli/jars/commons-cli-1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.flink" name="flink-java">
+			<revision name="0.8.0" status="release" pubdate="20150115105120" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<metadata-artifact status="no" details="" size="19705" time="0" location="/home/javier/.ivy2/cache/org.apache.flink/flink-java/ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-java/0.8.0/flink-java-0.8.0.pom"/>
+				<caller organisation="org.apache.flink" name="flink-streaming-scala" conf="default, compile, runtime, master" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-compiler" conf="compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-scala" conf="default, compile, runtime, master" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-streaming-core" conf="compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-clients" conf="compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.8.0"/>
+				<artifacts>
+					<artifact name="flink-java" type="jar" ext="jar" status="no" details="" size="567382" time="0" location="/home/javier/.ivy2/cache/org.apache.flink/flink-java/jars/flink-java-0.8.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/flink/flink-java/0.8.0/flink-java-0.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="chill_2.10">
+			<revision name="0.5.1" status="release" pubdate="20141127003709" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/chill" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3046" time="0" location="/home/javier/.ivy2/cache/com.twitter/chill_2.10/ivy-0.5.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/chill_2.10/0.5.1/chill_2.10-0.5.1.pom"/>
+				<caller organisation="org.apache.flink" name="flink-java" conf="compile, runtime" rev="0.5.1" rev-constraint-default="0.5.1" rev-constraint-dynamic="0.5.1" callerrev="0.8.0"/>
+				<artifacts>
+					<artifact name="chill_2.10" type="jar" ext="jar" status="no" details="" size="221034" time="0" location="/home/javier/.ivy2/cache/com.twitter/chill_2.10/jars/chill_2.10-0.5.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/chill_2.10/0.5.1/chill_2.10-0.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="chill-java">
+			<revision name="0.5.1" status="release" pubdate="20141127004538" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/chill" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2764" time="0" location="/home/javier/.ivy2/cache/com.twitter/chill-java/ivy-0.5.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/chill-java/0.5.1/chill-java-0.5.1.pom"/>
+				<caller organisation="com.twitter" name="chill_2.10" conf="compile, runtime" rev="0.5.1" rev-constraint-default="0.5.1" rev-constraint-dynamic="0.5.1" callerrev="0.5.1"/>
+				<artifacts>
+					<artifact name="chill-java" type="jar" ext="jar" status="no" details="" size="46716" time="0" location="/home/javier/.ivy2/cache/com.twitter/chill-java/jars/chill-java-0.5.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/chill-java/0.5.1/chill-java-0.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm">
+			<revision name="4.0" status="release" pubdate="20111206202219" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<metadata-artifact status="no" details="" size="3744" time="0" location="/home/javier/.ivy2/cache/org.ow2.asm/asm/ivy-4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm/4.0/asm-4.0.pom"/>
+				<caller organisation="org.apache.flink" name="flink-streaming-scala" conf="default, compile, runtime, master" rev="4.0" rev-constraint-default="4.0" rev-constraint-dynamic="4.0" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-java" conf="compile, runtime" rev="4.0" rev-constraint-default="4.0" rev-constraint-dynamic="4.0" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-scala" conf="default, compile, runtime, master" rev="4.0" rev-constraint-default="4.0" rev-constraint-dynamic="4.0" callerrev="0.8.0"/>
+				<artifacts>
+					<artifact name="asm" type="jar" ext="jar" status="no" details="" size="46022" time="0" location="/home/javier/.ivy2/cache/org.ow2.asm/asm/jars/asm-4.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm/4.0/asm-4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.esotericsoftware.kryo" name="kryo">
+			<revision name="2.24.0" status="release" pubdate="20140504150438" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/EsotericSoftware/kryo" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="New BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="3376" time="0" location="/home/javier/.ivy2/cache/com.esotericsoftware.kryo/kryo/ivy-2.24.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/esotericsoftware/kryo/kryo/2.24.0/kryo-2.24.0.pom"/>
+				<caller organisation="org.apache.flink" name="flink-java" conf="compile, runtime" rev="2.24.0" rev-constraint-default="2.24.0" rev-constraint-dynamic="2.24.0" callerrev="0.8.0"/>
+				<caller organisation="com.twitter" name="chill-java" conf="compile, runtime" rev="2.21" rev-constraint-default="2.21" rev-constraint-dynamic="2.21" callerrev="0.5.1"/>
+				<caller organisation="com.twitter" name="chill_2.10" conf="compile, runtime" rev="2.21" rev-constraint-default="2.21" rev-constraint-dynamic="2.21" callerrev="0.5.1"/>
+				<artifacts>
+					<artifact name="kryo" type="bundle" ext="jar" status="no" details="" size="339283" time="0" location="/home/javier/.ivy2/cache/com.esotericsoftware.kryo/kryo/bundles/kryo-2.24.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/esotericsoftware/kryo/kryo/2.24.0/kryo-2.24.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.21" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="2.24.0"/>
+				<caller organisation="com.twitter" name="chill-java" conf="compile, runtime" rev="2.21" rev-constraint-default="2.21" rev-constraint-dynamic="2.21" callerrev="0.5.1"/>
+				<caller organisation="com.twitter" name="chill_2.10" conf="compile, runtime" rev="2.21" rev-constraint-default="2.21" rev-constraint-dynamic="2.21" callerrev="0.5.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.objenesis" name="objenesis">
+			<revision name="2.1" status="release" pubdate="20131010232537" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://objenesis.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<metadata-artifact status="no" details="" size="3133" time="0" location="/home/javier/.ivy2/cache/org.objenesis/objenesis/ivy-2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/objenesis/objenesis/2.1/objenesis-2.1.pom"/>
+				<caller organisation="com.esotericsoftware.kryo" name="kryo" conf="compile, runtime" rev="2.1" rev-constraint-default="2.1" rev-constraint-dynamic="2.1" callerrev="2.24.0"/>
+				<artifacts>
+					<artifact name="objenesis" type="jar" ext="jar" status="no" details="" size="41755" time="0" location="/home/javier/.ivy2/cache/org.objenesis/objenesis/jars/objenesis-2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/objenesis/objenesis/2.1/objenesis-2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.esotericsoftware.minlog" name="minlog">
+			<revision name="1.2" status="release" pubdate="20120531142649" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/minlog/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="New BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="2539" time="0" location="/home/javier/.ivy2/cache/com.esotericsoftware.minlog/minlog/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2.pom"/>
+				<caller organisation="com.esotericsoftware.kryo" name="kryo" conf="compile, runtime" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="2.24.0"/>
+				<artifacts>
+					<artifact name="minlog" type="jar" ext="jar" status="no" details="" size="4965" time="0" location="/home/javier/.ivy2/cache/com.esotericsoftware.minlog/minlog/jars/minlog-1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/esotericsoftware/minlog/minlog/1.2/minlog-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.avro" name="avro">
+			<revision name="1.7.6" status="release" pubdate="20140110224141" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://avro.apache.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<metadata-artifact status="no" details="" size="12214" time="0" location="/home/javier/.ivy2/cache/org.apache.avro/avro/ivy-1.7.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/avro/avro/1.7.6/avro-1.7.6.pom"/>
+				<caller organisation="org.apache.flink" name="flink-java" conf="compile, runtime" rev="1.7.6" rev-constraint-default="1.7.6" rev-constraint-dynamic="1.7.6" callerrev="0.8.0"/>
+				<artifacts>
+					<artifact name="avro" type="bundle" ext="jar" status="no" details="" size="425587" time="0" location="/home/javier/.ivy2/cache/org.apache.avro/avro/bundles/avro-1.7.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/avro/avro/1.7.6/avro-1.7.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-compress">
+			<revision name="1.4.1" status="release" pubdate="20120522065732" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/compress/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<metadata-artifact status="no" details="" size="7900" time="0" location="/home/javier/.ivy2/cache/org.apache.commons/commons-compress/ivy-1.4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.pom"/>
+				<caller organisation="org.apache.avro" name="avro" conf="compile, runtime" rev="1.4.1" rev-constraint-default="1.4.1" rev-constraint-dynamic="1.4.1" callerrev="1.7.6"/>
+				<artifacts>
+					<artifact name="commons-compress" type="jar" ext="jar" status="no" details="" size="241367" time="0" location="/home/javier/.ivy2/cache/org.apache.commons/commons-compress/jars/commons-compress-1.4.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.tukaani" name="xz">
+			<revision name="1.0" status="release" pubdate="20111022114446" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://tukaani.org/xz/java.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="Public Domain"/>
+				<metadata-artifact status="no" details="" size="2277" time="0" location="/home/javier/.ivy2/cache/org.tukaani/xz/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/tukaani/xz/1.0/xz-1.0.pom"/>
+				<caller organisation="org.apache.commons" name="commons-compress" conf="compile, runtime" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.4.1"/>
+				<artifacts>
+					<artifact name="xz" type="jar" ext="jar" status="no" details="" size="94672" time="0" location="/home/javier/.ivy2/cache/org.tukaani/xz/jars/xz-1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/tukaani/xz/1.0/xz-1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.xerial.snappy" name="snappy-java">
+			<revision name="1.0.5" status="release" pubdate="20130517033557" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/xerial/snappy-java/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3868" time="0" location="/home/javier/.ivy2/cache/org.xerial.snappy/snappy-java/ivy-1.0.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.0.5/snappy-java-1.0.5.pom"/>
+				<caller organisation="org.apache.avro" name="avro" conf="compile, runtime" rev="1.0.5" rev-constraint-default="1.0.5" rev-constraint-dynamic="1.0.5" callerrev="1.7.6"/>
+				<artifacts>
+					<artifact name="snappy-java" type="bundle" ext="jar" status="no" details="" size="1251514" time="0" location="/home/javier/.ivy2/cache/org.xerial.snappy/snappy-java/bundles/snappy-java-1.0.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.0.5/snappy-java-1.0.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.paranamer" name="paranamer">
+			<revision name="2.3" status="release" pubdate="20101019151431" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<metadata-artifact status="no" details="" size="3364" time="0" location="/home/javier/.ivy2/cache/com.thoughtworks.paranamer/paranamer/ivy-2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.3/paranamer-2.3.pom"/>
+				<caller organisation="org.apache.avro" name="avro" conf="compile, runtime" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="1.7.6"/>
+				<artifacts>
+					<artifact name="paranamer" type="jar" ext="jar" status="no" details="" size="29555" time="0" location="/home/javier/.ivy2/cache/com.thoughtworks.paranamer/paranamer/jars/paranamer-2.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.3/paranamer-2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jackson" name="jackson-mapper-asl">
+			<revision name="1.9.13" status="release" pubdate="20130715050750" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2661" time="0" location="/home/javier/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/ivy-1.9.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.pom"/>
+				<caller organisation="org.apache.avro" name="avro" conf="compile, runtime" rev="1.9.13" rev-constraint-default="1.9.13" rev-constraint-dynamic="1.9.13" callerrev="1.7.6"/>
+				<artifacts>
+					<artifact name="jackson-mapper-asl" type="jar" ext="jar" status="no" details="" size="780664" time="0" location="/home/javier/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/jars/jackson-mapper-asl-1.9.13.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jackson" name="jackson-core-asl">
+			<revision name="1.9.13" status="release" pubdate="20130715050730" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2438" time="0" location="/home/javier/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/ivy-1.9.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.pom"/>
+				<caller organisation="org.apache.avro" name="avro" conf="compile, runtime" rev="1.9.13" rev-constraint-default="1.9.13" rev-constraint-dynamic="1.9.13" callerrev="1.7.6"/>
+				<caller organisation="org.codehaus.jackson" name="jackson-mapper-asl" conf="compile, runtime" rev="1.9.13" rev-constraint-default="1.9.13" rev-constraint-dynamic="1.9.13" callerrev="1.9.13"/>
+				<artifacts>
+					<artifact name="jackson-core-asl" type="jar" ext="jar" status="no" details="" size="232248" time="0" location="/home/javier/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/jars/jackson-core-asl-1.9.13.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.flink" name="flink-core">
+			<revision name="0.8.0" status="release" pubdate="20150115104957" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<metadata-artifact status="no" details="" size="20677" time="0" location="/home/javier/.ivy2/cache/org.apache.flink/flink-core/ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-core/0.8.0/flink-core-0.8.0.pom"/>
+				<caller organisation="org.apache.flink" name="flink-streaming-scala" conf="default, compile, runtime, master" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-java" conf="compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-compiler" conf="compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-scala" conf="default, compile, runtime, master" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-streaming-core" conf="compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-runtime" conf="compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-clients" conf="compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.8.0"/>
+				<artifacts>
+					<artifact name="flink-core" type="jar" ext="jar" status="no" details="" size="505598" time="0" location="/home/javier/.ivy2/cache/org.apache.flink/flink-core/jars/flink-core-0.8.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/flink/flink-core/0.8.0/flink-core-0.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-collections" name="commons-collections">
+			<revision name="3.2.1" status="release" pubdate="20080415030924" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/collections/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<metadata-artifact status="no" details="" size="4590" time="0" location="/home/javier/.ivy2/cache/commons-collections/commons-collections/ivy-3.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom"/>
+				<caller organisation="org.apache.flink" name="flink-core" conf="compile, runtime" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="0.8.0"/>
+				<artifacts>
+					<artifact name="commons-collections" type="jar" ext="jar" status="no" details="" size="575389" time="0" location="/home/javier/.ivy2/cache/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.flink" name="flink-shaded">
+			<revision name="0.8.0" status="release" pubdate="20150115104906" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<metadata-artifact status="no" details="" size="19017" time="0" location="/home/javier/.ivy2/cache/org.apache.flink/flink-shaded/ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/flink/flink-shaded/0.8.0/flink-shaded-0.8.0.pom"/>
+				<caller organisation="org.apache.flink" name="flink-core" conf="compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="0.8.0"/>
+				<artifacts>
+					<artifact name="flink-shaded" type="jar" ext="jar" status="no" details="" size="2374025" time="0" location="/home/javier/.ivy2/cache/org.apache.flink/flink-shaded/jars/flink-shaded-0.8.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/flink/flink-shaded/0.8.0/flink-shaded-0.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-log4j12">
+			<revision name="1.7.7" status="release" pubdate="20140404131326" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<metadata-artifact status="no" details="" size="4751" time="0" location="/home/javier/.ivy2/cache/org.slf4j/slf4j-log4j12/ivy-1.7.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7.pom"/>
+				<caller organisation="org.apache.flink" name="flink-streaming-scala" conf="default, compile, runtime, master" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-shaded" conf="compile, runtime" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-java" conf="compile, runtime" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-compiler" conf="compile, runtime" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-core" conf="compile, runtime" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-scala" conf="default, compile, runtime, master" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-streaming-core" conf="compile, runtime" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-runtime" conf="compile, runtime" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-clients" conf="compile, runtime" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="0.8.0"/>
+				<artifacts>
+					<artifact name="slf4j-log4j12" type="jar" ext="jar" status="no" details="" size="8870" time="0" location="/home/javier/.ivy2/cache/org.slf4j/slf4j-log4j12/jars/slf4j-log4j12-1.7.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="log4j" name="log4j">
+			<revision name="1.2.17" status="release" pubdate="20120526114339" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://logging.apache.org/log4j/1.2/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3544" time="0" location="/home/javier/.ivy2/cache/log4j/log4j/ivy-1.2.17.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.pom"/>
+				<caller organisation="org.apache.flink" name="flink-streaming-scala" conf="default, compile, runtime, master" rev="1.2.17" rev-constraint-default="1.2.17" rev-constraint-dynamic="1.2.17" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-shaded" conf="compile, runtime" rev="1.2.17" rev-constraint-default="1.2.17" rev-constraint-dynamic="1.2.17" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-java" conf="compile, runtime" rev="1.2.17" rev-constraint-default="1.2.17" rev-constraint-dynamic="1.2.17" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-compiler" conf="compile, runtime" rev="1.2.17" rev-constraint-default="1.2.17" rev-constraint-dynamic="1.2.17" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-core" conf="compile, runtime" rev="1.2.17" rev-constraint-default="1.2.17" rev-constraint-dynamic="1.2.17" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-scala" conf="default, compile, runtime, master" rev="1.2.17" rev-constraint-default="1.2.17" rev-constraint-dynamic="1.2.17" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-streaming-core" conf="compile, runtime" rev="1.2.17" rev-constraint-default="1.2.17" rev-constraint-dynamic="1.2.17" callerrev="0.8.0"/>
+				<caller organisation="org.slf4j" name="slf4j-log4j12" conf="compile, runtime" rev="1.2.17" rev-constraint-default="1.2.17" rev-constraint-dynamic="1.2.17" callerrev="1.7.7"/>
+				<caller organisation="org.apache.flink" name="flink-runtime" conf="compile, runtime" rev="1.2.17" rev-constraint-default="1.2.17" rev-constraint-dynamic="1.2.17" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-clients" conf="compile, runtime" rev="1.2.17" rev-constraint-default="1.2.17" rev-constraint-dynamic="1.2.17" callerrev="0.8.0"/>
+				<artifacts>
+					<artifact name="log4j" type="bundle" ext="jar" status="no" details="" size="489884" time="0" location="/home/javier/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.7" status="release" pubdate="20140404131248" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<metadata-artifact status="no" details="" size="4573" time="0" location="/home/javier/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom"/>
+				<caller organisation="org.apache.flink" name="flink-streaming-scala" conf="default, compile, runtime, master" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-shaded" conf="compile, runtime" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-java" conf="compile, runtime" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-compiler" conf="compile, runtime" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-core" conf="compile, runtime" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="0.8.0"/>
+				<caller organisation="org.apache.avro" name="avro" conf="compile, runtime" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.6.4" callerrev="1.7.6"/>
+				<caller organisation="org.apache.flink" name="flink-scala" conf="default, compile, runtime, master" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-streaming-core" conf="compile, runtime" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="0.8.0"/>
+				<caller organisation="org.slf4j" name="slf4j-log4j12" conf="compile, runtime" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="1.7.7"/>
+				<caller organisation="org.apache.flink" name="flink-runtime" conf="compile, runtime" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-clients" conf="compile, runtime" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="0.8.0"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="29257" time="0" location="/home/javier/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.6.4" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.7.7"/>
+				<caller organisation="org.apache.avro" name="avro" conf="compile, runtime" rev="1.6.4" rev-constraint-default="1.6.4" rev-constraint-dynamic="1.6.4" callerrev="1.7.6"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-lang3">
+			<revision name="3.3.2" status="release" pubdate="20140406142129" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-lang/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<metadata-artifact status="no" details="" size="10428" time="0" location="/home/javier/.ivy2/cache/org.apache.commons/commons-lang3/ivy-3.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.pom"/>
+				<caller organisation="org.apache.flink" name="flink-streaming-scala" conf="default, compile, runtime, master" rev="3.3.2" rev-constraint-default="3.3.2" rev-constraint-dynamic="3.3.2" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-shaded" conf="compile, runtime" rev="3.3.2" rev-constraint-default="3.3.2" rev-constraint-dynamic="3.3.2" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-java" conf="compile, runtime" rev="3.3.2" rev-constraint-default="3.3.2" rev-constraint-dynamic="3.3.2" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-compiler" conf="compile, runtime" rev="3.3.2" rev-constraint-default="3.3.2" rev-constraint-dynamic="3.3.2" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-core" conf="compile, runtime" rev="3.3.2" rev-constraint-default="3.3.2" rev-constraint-dynamic="3.3.2" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-scala" conf="default, compile, runtime, master" rev="3.3.2" rev-constraint-default="3.3.2" rev-constraint-dynamic="3.3.2" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-streaming-core" conf="compile, runtime" rev="3.3.2" rev-constraint-default="3.3.2" rev-constraint-dynamic="3.3.2" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-runtime" conf="compile, runtime" rev="3.3.2" rev-constraint-default="3.3.2" rev-constraint-dynamic="3.3.2" callerrev="0.8.0"/>
+				<caller organisation="org.apache.flink" name="flink-clients" conf="compile, runtime" rev="3.3.2" rev-constraint-default="3.3.2" rev-constraint-dynamic="3.3.2" callerrev="0.8.0"/>
+				<artifacts>
+					<artifact name="commons-lang3" type="jar" ext="jar" status="no" details="" size="412739" time="0" location="/home/javier/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.3.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-io" name="commons-io">
+			<revision name="2.4" status="release" pubdate="20120613002206" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="54">
+				<metadata-artifact status="no" details="" size="8463" time="0" location="/home/javier/.ivy2/cache/commons-io/commons-io/ivy-2.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom"/>
+				<caller organisation="commons-fileupload" name="commons-fileupload" conf="compile, runtime" rev="2.2" rev-constraint-default="2.2" rev-constraint-dynamic="2.2" callerrev="1.3.1"/>
+				<caller organisation="org.apache.flink" name="flink-clients" conf="compile, runtime" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="0.8.0"/>
+				<artifacts>
+					<artifact name="commons-io" type="jar" ext="jar" status="no" details="" size="185140" time="0" location="/home/javier/.ivy2/cache/commons-io/commons-io/jars/commons-io-2.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.2" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="2.4"/>
+				<caller organisation="commons-fileupload" name="commons-fileupload" conf="compile, runtime" rev="2.2" rev-constraint-default="2.2" rev-constraint-dynamic="2.2" callerrev="1.3.1"/>
+				<caller organisation="org.apache.flink" name="flink-clients" conf="compile, runtime" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="0.8.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.10.4" status="release" pubdate="20140318224629" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.4/" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2487" time="0" location="/home/javier/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.pom"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.10.4"/>
+				<caller organisation="com.twitter" name="chill_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="0.5.1"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.10.4"/>
+				<caller organisation="org.apache.flink" name="flink-scala" conf="default, compile, runtime, master" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="0.8.0"/>
+				<caller organisation="org.scalamacros" name="quasiquotes_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="2.0.1"/>
+				<caller organisation="com" name="swift-eta_2.10" conf="compile-internal, compile, provided, optional" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7126372" time="0" location="/home/javier/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

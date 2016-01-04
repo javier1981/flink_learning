@@ -1,0 +1,242 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/javier/Desktop/Flink/flink-sbt/target/scala-2.10/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.10.4
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+12 items
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/Job.scala -> /home/javier/Desktop/Flink/flink-sbt/target/scala-2.10/classes/org/myorg/quickstart/Job$.class
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/Job.scala -> /home/javier/Desktop/Flink/flink-sbt/target/scala-2.10/classes/org/myorg/quickstart/Job.class
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/SocketTextStreamWordCount.scala -> /home/javier/Desktop/Flink/flink-sbt/target/scala-2.10/classes/org/myorg/quickstart/SocketTextStreamWordCount$.class
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/SocketTextStreamWordCount.scala -> /home/javier/Desktop/Flink/flink-sbt/target/scala-2.10/classes/org/myorg/quickstart/SocketTextStreamWordCount.class
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> /home/javier/Desktop/Flink/flink-sbt/target/scala-2.10/classes/org/myorg/quickstart/WordCount$$anon$1$$anon$2.class
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> /home/javier/Desktop/Flink/flink-sbt/target/scala-2.10/classes/org/myorg/quickstart/WordCount$$anon$1$$anonfun$createSerializer$1.class
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> /home/javier/Desktop/Flink/flink-sbt/target/scala-2.10/classes/org/myorg/quickstart/WordCount$$anon$1.class
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> /home/javier/Desktop/Flink/flink-sbt/target/scala-2.10/classes/org/myorg/quickstart/WordCount$$anonfun$1$$anonfun$apply$1.class
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> /home/javier/Desktop/Flink/flink-sbt/target/scala-2.10/classes/org/myorg/quickstart/WordCount$$anonfun$1.class
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> /home/javier/Desktop/Flink/flink-sbt/target/scala-2.10/classes/org/myorg/quickstart/WordCount$$anonfun$2.class
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> /home/javier/Desktop/Flink/flink-sbt/target/scala-2.10/classes/org/myorg/quickstart/WordCount$.class
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> /home/javier/Desktop/Flink/flink-sbt/target/scala-2.10/classes/org/myorg/quickstart/WordCount.class
+binary dependencies:
+12 items
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/Job.scala -> /home/javier/.ivy2/cache/org.apache.flink/flink-scala/jars/flink-scala-0.8.0.jar
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/Job.scala -> /home/javier/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/Job.scala -> /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/SocketTextStreamWordCount.scala -> /home/javier/.ivy2/cache/org.apache.flink/flink-scala/jars/flink-scala-0.8.0.jar
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/SocketTextStreamWordCount.scala -> /home/javier/.ivy2/cache/org.apache.flink/flink-streaming-scala/jars/flink-streaming-scala-0.8.0.jar
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/SocketTextStreamWordCount.scala -> /home/javier/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/SocketTextStreamWordCount.scala -> /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> /home/javier/.ivy2/cache/org.apache.flink/flink-core/jars/flink-core-0.8.0.jar
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> /home/javier/.ivy2/cache/org.apache.flink/flink-java/jars/flink-java-0.8.0.jar
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> /home/javier/.ivy2/cache/org.apache.flink/flink-scala/jars/flink-scala-0.8.0.jar
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> /home/javier/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+12 items
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/Job.scala -> org.myorg.quickstart.Job
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/Job.scala -> org.myorg.quickstart.Job$
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/SocketTextStreamWordCount.scala -> org.myorg.quickstart.SocketTextStreamWordCount
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/SocketTextStreamWordCount.scala -> org.myorg.quickstart.SocketTextStreamWordCount$
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> org.myorg.quickstart.WordCount
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> org.myorg.quickstart.WordCount$
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> org.myorg.quickstart.WordCount$$anon$1
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> org.myorg.quickstart.WordCount$$anon$1$$anon$2
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> org.myorg.quickstart.WordCount$$anon$1$$anonfun$createSerializer$1
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> org.myorg.quickstart.WordCount$$anonfun$1
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> org.myorg.quickstart.WordCount$$anonfun$1$$anonfun$apply$1
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> org.myorg.quickstart.WordCount$$anonfun$2
+used names:
+106 items
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/Job.scala -> <init>
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/Job.scala -> AnyRef
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/Job.scala -> Array
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/Job.scala -> ExecutionEnvironment
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/Job.scala -> Job
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/Job.scala -> Predef
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/Job.scala -> String
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/Job.scala -> Unit
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/Job.scala -> apache
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/Job.scala -> api
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/Job.scala -> env
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/Job.scala -> execute
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/Job.scala -> flink
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/Job.scala -> getExecutionEnvironment
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/Job.scala -> myorg
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/Job.scala -> org
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/Job.scala -> quickstart
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/Job.scala -> scala
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/SocketTextStreamWordCount.scala -> <init>
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/SocketTextStreamWordCount.scala -> AnyRef
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/SocketTextStreamWordCount.scala -> Array
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/SocketTextStreamWordCount.scala -> ClassTag
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/SocketTextStreamWordCount.scala -> ExecutionEnvironment
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/SocketTextStreamWordCount.scala -> Predef
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/SocketTextStreamWordCount.scala -> SocketTextStreamWordCount
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/SocketTextStreamWordCount.scala -> StreamExecutionEnvironment
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/SocketTextStreamWordCount.scala -> String
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/SocketTextStreamWordCount.scala -> Unit
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/SocketTextStreamWordCount.scala -> apache
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/SocketTextStreamWordCount.scala -> api
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/SocketTextStreamWordCount.scala -> env
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/SocketTextStreamWordCount.scala -> execute
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/SocketTextStreamWordCount.scala -> flink
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/SocketTextStreamWordCount.scala -> getExecutionEnvironment
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/SocketTextStreamWordCount.scala -> hostname
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/SocketTextStreamWordCount.scala -> myorg
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/SocketTextStreamWordCount.scala -> org
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/SocketTextStreamWordCount.scala -> port
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/SocketTextStreamWordCount.scala -> quickstart
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/SocketTextStreamWordCount.scala -> reflect
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/SocketTextStreamWordCount.scala -> scala
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/SocketTextStreamWordCount.scala -> socketTextStream
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/SocketTextStreamWordCount.scala -> streaming
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> $anon
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> <init>
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> Any
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> AnyRef
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> Array
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> BasicTypeInfo
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> CaseClassSerializer
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> CaseClassTypeInfo
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> ClassTag
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> ExecutionEnvironment
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> List
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> Nothing
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> Predef
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> Seq
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> String
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> TypeSerializer
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> Unit
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> WordCount
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> apache
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> api
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> apply
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> asInstanceOf
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> augmentString
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> collection
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> counts
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> createSerializer
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> createTypeInformation
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> env
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> execute
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> fieldSerializers
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> fields
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> filter
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> flatMap
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> flink
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> foreach
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> fromElements
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> getArity
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> getExecutionEnvironment
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> getInfoFor
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> groupBy
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> i
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> immutable
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> intWrapper
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> map
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> materializeClassTag
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> myorg
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> nonEmpty
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> org
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> package
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> print
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> protected$tupleType
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> protected$types
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> quickstart
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> refArrayOps
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> scala
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> split
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> sum
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> text
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> toLowerCase
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> tupleType
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> types
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> until
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> update
+product stamps:
+12 items
+/home/javier/Desktop/Flink/flink-sbt/target/scala-2.10/classes/org/myorg/quickstart/Job$.class -> lastModified(1448453909000)
+/home/javier/Desktop/Flink/flink-sbt/target/scala-2.10/classes/org/myorg/quickstart/Job.class -> lastModified(1448453909000)
+/home/javier/Desktop/Flink/flink-sbt/target/scala-2.10/classes/org/myorg/quickstart/SocketTextStreamWordCount$.class -> lastModified(1448453909000)
+/home/javier/Desktop/Flink/flink-sbt/target/scala-2.10/classes/org/myorg/quickstart/SocketTextStreamWordCount.class -> lastModified(1448453909000)
+/home/javier/Desktop/Flink/flink-sbt/target/scala-2.10/classes/org/myorg/quickstart/WordCount$$anon$1$$anon$2.class -> lastModified(1448453909000)
+/home/javier/Desktop/Flink/flink-sbt/target/scala-2.10/classes/org/myorg/quickstart/WordCount$$anon$1$$anonfun$createSerializer$1.class -> lastModified(1448453909000)
+/home/javier/Desktop/Flink/flink-sbt/target/scala-2.10/classes/org/myorg/quickstart/WordCount$$anon$1.class -> lastModified(1448453909000)
+/home/javier/Desktop/Flink/flink-sbt/target/scala-2.10/classes/org/myorg/quickstart/WordCount$$anonfun$1$$anonfun$apply$1.class -> lastModified(1448453909000)
+/home/javier/Desktop/Flink/flink-sbt/target/scala-2.10/classes/org/myorg/quickstart/WordCount$$anonfun$1.class -> lastModified(1448453909000)
+/home/javier/Desktop/Flink/flink-sbt/target/scala-2.10/classes/org/myorg/quickstart/WordCount$$anonfun$2.class -> lastModified(1448453909000)
+/home/javier/Desktop/Flink/flink-sbt/target/scala-2.10/classes/org/myorg/quickstart/WordCount$.class -> lastModified(1448453909000)
+/home/javier/Desktop/Flink/flink-sbt/target/scala-2.10/classes/org/myorg/quickstart/WordCount.class -> lastModified(1448453909000)
+source stamps:
+3 items
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/Job.scala -> hash(33917c676c5e09a45f05618530bf44db82bfd69b)
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/SocketTextStreamWordCount.scala -> hash(afe81718b49c42075f28b73337dd1108d7f67964)
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> hash(9f1610b1729e735866a6d2380f1b2dbc9d7eb52b)
+binary stamps:
+6 items
+/home/javier/.ivy2/cache/org.apache.flink/flink-core/jars/flink-core-0.8.0.jar -> lastModified(1421315391000)
+/home/javier/.ivy2/cache/org.apache.flink/flink-java/jars/flink-java-0.8.0.jar -> lastModified(1421315474000)
+/home/javier/.ivy2/cache/org.apache.flink/flink-scala/jars/flink-scala-0.8.0.jar -> lastModified(1421315772000)
+/home/javier/.ivy2/cache/org.apache.flink/flink-streaming-scala/jars/flink-streaming-scala-0.8.0.jar -> lastModified(1421316397000)
+/home/javier/.sbt/boot/scala-2.10.4/lib/scala-library.jar -> lastModified(1395179187000)
+/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar -> lastModified(1427450854000)
+class names:
+6 items
+/home/javier/.ivy2/cache/org.apache.flink/flink-core/jars/flink-core-0.8.0.jar -> org.apache.flink.api.common.typeutils.TypeSerializer
+/home/javier/.ivy2/cache/org.apache.flink/flink-java/jars/flink-java-0.8.0.jar -> org.apache.flink.api.java.typeutils.TupleTypeInfoBase
+/home/javier/.ivy2/cache/org.apache.flink/flink-scala/jars/flink-scala-0.8.0.jar -> org.apache.flink.api.scala.typeutils.CaseClassSerializer
+/home/javier/.ivy2/cache/org.apache.flink/flink-streaming-scala/jars/flink-streaming-scala-0.8.0.jar -> org.apache.flink.streaming.api.scala.StreamExecutionEnvironment$
+/home/javier/.sbt/boot/scala-2.10.4/lib/scala-library.jar -> scala.runtime.RichInt
+/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+3 items
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/Job.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCFjJNJAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cPAO4cd0AAZub3RpZnlzcQB+AAwbRcOudAAEd2FpdHNxAH4ADJCNvgl0AA0kYXNJbnN0YW5jZU9mc3EAfgAMeZ5IVXQABmVxdWFsc3NxAH4ADBFHboB0AAxhc0luc3RhbmNlT2ZzcQB+AAz0ZpvIdAAMc3luY2hyb25pemVkc3EAfgAMkluxFXQADSRpc0luc3RhbmNlT2ZzcQB+AAzjb2f+dAAEbWFpbnNxAH4ADDEMRLh0AANKb2JzcQB+AAyt6vUtdAAJbm90aWZ5QWxsc3EAfgAM4NicOnQADGlzSW5zdGFuY2VPZnNxAH4ADMTbdcJ0AAI9PXNxAH4ADBwNTux0AAVjbG9uZXNxAH4ADNuxX8V0AAh0b1N0cmluZ3NxAH4ADPDOTQh0AAIhPXNxAH4ADMgqctx0AAhnZXRDbGFzc3NxAH4ADPDRDOx0AAJuZXNxAH4ADFGiMcV0AAJlcXNxAH4ADLCIHL50AAIjI3NxAH4ADNbkVI10AAhmaW5hbGl6ZXNxAH4ADEpdxr90AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ABhvcmcubXlvcmcucXVpY2tzdGFydC5Kb2J1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgBaeHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBZAHBzcQB+AF5zcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AQUwACWluaGVyaXRlZHEAfgBBTAAHcGFyZW50c3EAfgBBeHEAfgBic3EAfgBZAHBzcQB+AF51cQB+ADwAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AEJxAH4AS3VxAH4ATAAAAABzcQB+AE4AcQB+AB11cQB+AFEAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AYXQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGFzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AH91cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgBseHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgBUdAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgBzWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBhc3EAfgBydAAFQXJyYXlxAH4AeHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgBydAAGU3RyaW5nc3EAfgB2c3EAfgB5dXEAfgB8AAAAA3NxAH4AfnQABGphdmFzcQB+AH50AARsYW5ncQB+AINzcQB+AFkAcHNxAH4AXnVxAH4APAAAAABzcQB+AFkAcHNxAH4AXnVxAH4AlwAAAAJzcQB+AHJ0AAZPYmplY3RxAH4Am3NxAH4AcnQAA0FueXEAfgB4dXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAANzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAUb3JnLm15b3JnLnF1aWNrc3RhcnRzcQB+AK50AAlvcmcubXlvcmdzcQB+AK50AANvcmdzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVE+lJoudXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAPi9ob21lL2phdmllci9EZXNrdG9wL0ZsaW5rL2ZsaW5rLXNidC90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUM5F8Z2xeCaRfBWGFML9E24K/1ps=
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/SocketTextStreamWordCount.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDQCuuqAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cDFvCIt0AAZub3RpZnlzcQB+AAw3AVN9dAAEd2FpdHNxAH4ADOfzqu90AA0kYXNJbnN0YW5jZU9mc3EAfgAMXI9N6nQAGVNvY2tldFRleHRTdHJlYW1Xb3JkQ291bnRzcQB+AAy6nBMfdAAGZXF1YWxzc3EAfgAMKgBYSnQADGFzSW5zdGFuY2VPZnNxAH4ADCIFfb50AAxzeW5jaHJvbml6ZWRzcQB+AAyRHSqEdAANJGlzSW5zdGFuY2VPZnNxAH4ADGKd8+Z0AARtYWluc3EAfgAM194e23QACW5vdGlmeUFsbHNxAH4ADMlhxvx0AAxpc0luc3RhbmNlT2ZzcQB+AAxjdmIpdAACPT1zcQB+AAy1ORv4dAAFY2xvbmVzcQB+AAw0JLTXdAAIdG9TdHJpbmdzcQB+AAwv6em9dAACIT1zcQB+AAzkuvp7dAAIZ2V0Q2xhc3NzcQB+AAwFNEvpdAACbmVzcQB+AAyk/zbldAACZXFzcQB+AAx+z7pJdAACIyNzcQB+AAwhFyYddAAIZmluYWxpemVzcQB+AAyNdT7CdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBBeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAub3JnLm15b3JnLnF1aWNrc3RhcnQuU29ja2V0VGV4dFN0cmVhbVdvcmRDb3VudHVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AFp4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AFkAcHNxAH4AXnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBBTAAJaW5oZXJpdGVkcQB+AEFMAAdwYXJlbnRzcQB+AEF4cQB+AGJzcQB+AFkAcHNxAH4AXnVxAH4APAAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4AQnEAfgBLdXEAfgBMAAAAAHNxAH4ATgBxAH4AH3VxAH4AUQAAAABzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBhdAAEVW5pdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AYXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4Af3VyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AGx4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AFR0AAVQbGFpbnQABGFyZ3NzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AHNbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AGFzcQB+AHJ0AAVBcnJheXEAfgB4dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AHJ0AAZTdHJpbmdzcQB+AHZzcQB+AHl1cQB+AHwAAAADc3EAfgB+dAAEamF2YXNxAH4AfnQABGxhbmdxAH4Ag3NxAH4AWQBwc3EAfgBedXEAfgA8AAAAAHNxAH4AWQBwc3EAfgBedXEAfgCXAAAAAnNxAH4AcnQABk9iamVjdHEAfgCbc3EAfgBydAADQW55cQB+AHh1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAA3NyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0ABRvcmcubXlvcmcucXVpY2tzdGFydHNxAH4ArnQACW9yZy5teW9yZ3NxAH4ArnQAA29yZ3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUT6Umi51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA+L2hvbWUvamF2aWVyL0Rlc2t0b3AvRmxpbmsvZmxpbmstc2J0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSv6BcYtJxCB18otzM33REI1/Z5ZA==
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAQlFLlAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cOPfM/x0AAZub3RpZnlzcQB+AAzQJbnsdAAEd2FpdHNxAH4ADNOjCkx0AA0kYXNJbnN0YW5jZU9mc3EAfgAMbF7+CHQABmVxdWFsc3NxAH4ADKRMrzN0AAxhc0luc3RhbmNlT2ZzcQB+AAxOtLN5dAAMc3luY2hyb25pemVkc3EAfgAMGtdaJ3QADSRpc0luc3RhbmNlT2ZzcQB+AAyAVRPddAAEbWFpbnNxAH4ADJ/jzLR0AAlXb3JkQ291bnRzcQB+AAy+ZuXjdAAJbm90aWZ5QWxsc3EAfgAMkFOKd3QADGlzSW5zdGFuY2VPZnNxAH4ADI7JSwJ0AAI9PXNxAH4ADPznlpJ0AAVjbG9uZXNxAH4ADGhBFC10AAh0b1N0cmluZ3NxAH4ADCtT+Ql0AAIhPXNxAH4ADF73CZZ0AAhnZXRDbGFzc3NxAH4ADKTSO8B0AAJuZXNxAH4ADFmC3Cd0AAJlcXNxAH4ADF6MeGV0AAIjI3NxAH4ADMkubKx0AAhmaW5hbGl6ZXNxAH4ADG9YV3V0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0AB5vcmcubXlvcmcucXVpY2tzdGFydC5Xb3JkQ291bnR1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgBaeHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBZAHBzcQB+AF5zcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AQUwACWluaGVyaXRlZHEAfgBBTAAHcGFyZW50c3EAfgBBeHEAfgBic3EAfgBZAHBzcQB+AF51cQB+ADwAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AEJxAH4AS3VxAH4ATAAAAABzcQB+AE4AcQB+AB11cQB+AFEAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AYXQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGFzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AH91cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgBseHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgBUdAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgBzWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBhc3EAfgBydAAFQXJyYXlxAH4AeHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgBydAAGU3RyaW5nc3EAfgB2c3EAfgB5dXEAfgB8AAAAA3NxAH4AfnQABGphdmFzcQB+AH50AARsYW5ncQB+AINzcQB+AFkAcHNxAH4AXnVxAH4APAAAAABzcQB+AFkAcHNxAH4AXnVxAH4AlwAAAAJzcQB+AHJ0AAZPYmplY3RxAH4Am3NxAH4AcnQAA0FueXEAfgB4dXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAANzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAUb3JnLm15b3JnLnF1aWNrc3RhcnRzcQB+AK50AAlvcmcubXlvcmdzcQB+AK50AANvcmdzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVE+lJoudXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAPi9ob21lL2phdmllci9EZXNrdG9wL0ZsaW5rL2ZsaW5rLXNidC90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUnxYQsXKec1hmptI4DxstvJ1+tSs=
+external apis:
+0 items
+source infos:
+3 items
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/Job.scala -> 
+AAAAAAAAAAA=
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/SocketTextStreamWordCount.scala -> 
+AAAAAAAAAAA=
+/home/javier/Desktop/Flink/flink-sbt/src/main/scala/org/myorg/quickstart/WordCount.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUT6Umi51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPi9ob21lL2phdmllci9EZXNrdG9wL0ZsaW5rL2ZsaW5rLXNidC90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
